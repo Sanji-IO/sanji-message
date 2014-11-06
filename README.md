@@ -52,3 +52,24 @@ Bundle 若要發出 message 請參照以下格式
   <td>For message contains variable.</td>
  </tr>
 </table>
+
+Frimware:
+``` javascript
+{
+    code: 'FW_UPGRADE',
+    message: 'Device is upgrading.',
+    type: 'event'
+}
+
+{
+    code: 'FW_UPGRADE_SUCCESS',
+    message: 'Device upgrades successfully.',
+    type: 'event'
+}
+
+{
+    code: 'FW_UPGRADE_FAIL',
+    message: 'Device upgrades fail.',
+    type: 'alarm'
+}
+```
