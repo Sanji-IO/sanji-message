@@ -1,6 +1,6 @@
 sanji-message
 =============
-規範 sanji bundle message 格式。message.json 紀錄所有的 message code
+規範 sanji bundle message 格式。message json 紀錄所有的 message code
 
 
 範例說明：
