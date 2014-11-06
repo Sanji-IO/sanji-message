@@ -56,7 +56,7 @@ Bundle 若要發出 message 請參照以下格式
 Frimware:
 ``` javascript
 {
-    code: 'FW_UPGRADE',
+    code: 'FW_UPGRADING',
     message: 'Device is upgrading.',
     type: 'event'
 }
@@ -70,6 +70,27 @@ Frimware:
 {
     code: 'FW_UPGRADE_FAIL',
     message: 'Device upgrades fail.',
+    type: 'alarm'
+}
+```
+
+Reboot:
+``` javascript
+{
+    code: 'REBOOTING',
+    message: 'Device is rebooting.',
+    type: 'event'
+}
+
+{
+    code: 'REBOOT_SUCCESS',
+    message: 'Device reboots successfully.',
+    type: 'event'
+}
+
+{
+    code: 'REBOOT_FAIL',
+    message: 'Device reboots fail.',
     type: 'alarm'
 }
 ```
