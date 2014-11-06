@@ -1,0 +1,23 @@
+{
+  "LOGIN_SUCCESS": "{{name}} 登入成功",
+  "LOGIN_FAIL": "登入失敗",
+  "USER_UPDATE_SUCCESS": "更新使用者資料成功",
+  "USER_UPDATE_FAIL": "更新使用者資料失敗",
+  "COMPUTER_ADD_SUCCESS": "新增 Computer Gateway 成功",
+  "COMPUTER_DELETE_SUCCESS": "刪除 Computer Gateway 成功",
+  "COMPUTER_DELETE_FAIL": "刪除 Computer Gateway 失敗",
+  "COMPUTER_IMPORT_SUCCESS": "匯入 Computer Gateway 清單成功",
+  "COMPUTER_IMPORT_FAIL": "匯入 Computer Gateway 清單失敗"
+  "EQUIPMENT_DELETE_SUCCESS": "刪除 Equipment: {{ids}} 成功",
+  "EQUIPMENT_ADD_SUCCESS": "新增 Equipment 成功",
+  "EQUIPMENT_ADD_FAIL_ID_TAKEN": "新增的 Equipment 已存在",
+  "EQUIPMENT_ADD_FAIL": "新增 Equipment 失敗",
+  "CHANNEL_ADD_SUCCESS": "新增 Channel 圖成功",
+  "CHANNEL_DELETE_SUCCESS": "刪除 Channel 圖成功",
+  "CHANNEL_UPDATE_SUCCESS": "更新 Channel 圖成功",
+  "GROUP_ADD_SUCCESS": "新增群組 {{name}} 成功",
+  "GROUP_ADD_FAIL": "新增群組失敗",
+  "GROUP_ADD_FAIL_DUP": "新增的群組已存在",
+  "GROUP_UPDATE_SUCCESS": "更新群組 {{name}} 成功",
+  "GROUP_UPDATE_FAIL": "更新群組失敗"
+}
