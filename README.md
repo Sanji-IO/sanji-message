@@ -57,20 +57,29 @@ Frimware:
 ``` javascript
 {
     code: 'FW_UPGRADING',
-    message: 'Device is upgrading.',
-    type: 'event'
+    message: 'Device cg-123456789715 is upgrading.',
+    type: 'event',
+    variables: {
+       id: 'cg-123456789715'
+    }
 }
 
 {
     code: 'FW_UPGRADE_SUCCESS',
-    message: 'Device upgrades successfully.',
-    type: 'event'
+    message: 'Device cg-123456789715 upgrades successfully.',
+    type: 'event',
+    variables: {
+       id: 'cg-123456789715'
+    }
 }
 
 {
     code: 'FW_UPGRADE_FAIL',
-    message: 'Device upgrades fail.',
-    type: 'alarm'
+    message: 'Device cg-123456789715 upgrades fail.',
+    type: 'alarm',
+    variables: {
+       id: 'cg-123456789715'
+    }
 }
 ```
 
@@ -78,19 +87,28 @@ Reboot:
 ``` javascript
 {
     code: 'REBOOTING',
-    message: 'Device is rebooting.',
-    type: 'event'
+    message: 'Device cg-123456789715 is rebooting.',
+    type: 'event',
+    variables: {
+       id: 'cg-123456789715'
+    }
 }
 
 {
     code: 'REBOOT_SUCCESS',
-    message: 'Device reboots successfully.',
-    type: 'event'
+    message: 'Device cg-123456789715 reboots successfully.',
+    type: 'event',
+    variables: {
+       id: 'cg-123456789715'
+    }
 }
 
 {
     code: 'REBOOT_FAIL',
-    message: 'Device reboots fail.',
-    type: 'alarm'
+    message: 'Device cg-123456789715 reboots fail.',
+    type: 'alarm',
+    variables: {
+       id: 'cg-123456789715'
+    }
 }
 ```
