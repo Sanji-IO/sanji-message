@@ -19,5 +19,11 @@
   "GROUP_ADD_FAIL": "新增群組失敗",
   "GROUP_ADD_FAIL_DUP": "新增的群組已存在",
   "GROUP_UPDATE_SUCCESS": "更新群組 {{name}} 成功",
-  "GROUP_UPDATE_FAIL": "更新群組失敗"
+  "GROUP_UPDATE_FAIL": "更新群組失敗",
+  "FW_UPGRADING": "裝置 {{id}} 更新中",
+  "FW_UPGRADE_SUCCESS": "裝置 {{id}} 更新成功",
+  "FW_UPGRADE_FAIL": "裝置 {{id}} 更新失敗",
+  "REBOOTING": "裝置 {{id}} 重啟中",
+  "REBOOT_SUCCESS": "裝置 {{id}} 重啟成功",
+  "REBOOT_FAIL": "裝置 {{id}} 重啟失敗"
 }
