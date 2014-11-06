@@ -21,5 +21,11 @@
   "GROUP_UPDATE_SUCCESS": "Group {{name}} has been updated.",
   "GROUP_UPDATE_FAIL": "Group data updates fail.",
   "GROUP_DELETE_SUCCESS": "Groups {{name}} have been deleted successfully.",
-  "GROUP_DELETE_FAIL": "Groups {{name}} have been deleted fail."
+  "GROUP_DELETE_FAIL": "Groups {{name}} have been deleted fail.",
+  "FW_UPGRADING": "Device {{id}} upgrades successfully.",
+  "FW_UPGRADE_SUCCESS": "Device {{id}} upgrades successfully.",
+  "FW_UPGRADE_FAIL": "Device {{id}} upgrades fail.",
+  "REBOOTING": "Device {{id}} is rebooting.",
+  "REBOOT_SUCCESS": "Device {{id}} reboots successfully.",
+  "REBOOT_FAIL": "Device {{id}} reboots fail."
 }
