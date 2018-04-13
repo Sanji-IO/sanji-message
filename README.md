@@ -4,11 +4,11 @@ sanji-message
 
 
 範例說明：
-Bundle 若要發出 message 請參照以下格式
+Bundle 若要發出 event message 請參照以下格式
 
 ``` javascript
 {
-    "code": "LOGIN_SUCCESS",
+    "i18n": "LOGIN_SUCCESS",
     "message": "admin@mox.com login successfully",
     "type": "event",
     "variables": {
@@ -17,7 +17,7 @@ Bundle 若要發出 message 請參照以下格式
 }
 
 {
-    "code": "LOGIN_FAIL",
+    "i18n": "LOGIN_FAIL",
     "message": "Login fail",
     "type": "alram"
 }
@@ -32,12 +32,7 @@ Bundle 若要發出 message 請參照以下格式
   <td>Note</td>
  </tr>
  <tr>
-  <td>id</td>
-  <td>String</td>
-  <td>For equipment, cloud gateway or gruop</td>
- </tr>
- <tr>
-  <td>code</td>
+  <td>i18n</td>
   <td>String</td>
   <td>For web i18n code</td>
  </tr>
@@ -61,7 +56,6 @@ Bundle 若要發出 message 請參照以下格式
 Frimware:
 ``` javascript
 {
-    "id": "cg-123456789715"
     "code": "FW_UPGRADING",
     "message": "Device cg-123456789715 is upgrading.",
     "type": "event",
@@ -71,7 +65,6 @@ Frimware:
 }
 
 {
-    "id": "cg-123456789715"
     "code": "FW_UPGRADE_SUCCESS",
     "message": "Device cg-123456789715 upgrades successfully.",
     "type": "event",
@@ -81,7 +74,6 @@ Frimware:
 }
 
 {
-    "id": "cg-123456789715"
     "code": "FW_UPGRADE_FAIL",
     "message": "Device cg-123456789715 upgrades fail.",
     "type": "alarm",
@@ -94,7 +86,6 @@ Frimware:
 Reboot:
 ``` javascript
 {
-    "id": "cg-123456789715"
     "code": "REBOOTING",
     "message": "Device cg-123456789715 is rebooting.",
     "type": "event",
@@ -104,7 +95,6 @@ Reboot:
 }
 
 {
-    "id": "cg-123456789715"
     "code": "REBOOT_SUCCESS",
     "message": "Device cg-123456789715 reboots successfully.",
     "type": "event",
@@ -114,7 +104,6 @@ Reboot:
 }
 
 {
-    "id": "cg-123456789715"
     "code": "REBOOT_FAIL",
     "message": "Device cg-123456789715 reboots fail.",
     "type": "alarm",
