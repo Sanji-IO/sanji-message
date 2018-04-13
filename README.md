@@ -56,7 +56,7 @@ Bundle 若要發出 event message 請參照以下格式
 Frimware:
 ``` javascript
 {
-    "code": "FW_UPGRADING",
+    "i18n": "FW_UPGRADING",
     "message": "Device cg-123456789715 is upgrading.",
     "type": "event",
     "variables": {
@@ -65,7 +65,7 @@ Frimware:
 }
 
 {
-    "code": "FW_UPGRADE_SUCCESS",
+    "i18n": "FW_UPGRADE_SUCCESS",
     "message": "Device cg-123456789715 upgrades successfully.",
     "type": "event",
     "variables": {
@@ -74,7 +74,7 @@ Frimware:
 }
 
 {
-    "code": "FW_UPGRADE_FAIL",
+    "i18n": "FW_UPGRADE_FAIL",
     "message": "Device cg-123456789715 upgrades fail.",
     "type": "alarm",
     "variables": {
@@ -86,7 +86,7 @@ Frimware:
 Reboot:
 ``` javascript
 {
-    "code": "REBOOTING",
+    "i18n": "REBOOTING",
     "message": "Device cg-123456789715 is rebooting.",
     "type": "event",
     "variables": {
@@ -95,7 +95,7 @@ Reboot:
 }
 
 {
-    "code": "REBOOT_SUCCESS",
+    "i18n": "REBOOT_SUCCESS",
     "message": "Device cg-123456789715 reboots successfully.",
     "type": "event",
     "variables": {
@@ -104,7 +104,7 @@ Reboot:
 }
 
 {
-    "code": "REBOOT_FAIL",
+    "i18n": "REBOOT_FAIL",
     "message": "Device cg-123456789715 reboots fail.",
     "type": "alarm",
     "variables": {
